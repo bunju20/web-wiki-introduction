@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개 위키 페이지</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <div id="app">
@@ -18,45 +18,95 @@
       <main>
         <h2 class="title">크론</h2>
         <hr />
-        <section>
+        <section id="intro">
           <h3 class="subtitle">자기소개</h3>
           <p>
-            안녕하세요, 저는 끊임없이 새로운 도전을 통해 성장하는 것을 즐기는 크론이에요. 안정적인 삶에서 벗어나 세 번의
-            큰 전환점을 겪으며 지금의 제가 되었어요. 어제보다 더 나은 오늘의 나를 만들기 위해 노력하고 있죠. 매일의 작은
-            성취들이 모여 제가 한 걸음 더 성장했다는 것을 느낄 때면 가슴이 벅차오르거든요. 그러다 문득, 저처럼 변화를
-            갈망하며 도전을 꿈꾸는 분들이 많다는 것을 알게 되었어요. 나의 성장도 의미 있지만, 누군가의 성장을 함께할 수
-            있다는 건 매일 새로운 설렘을 주는 일이에요.
+            안녕하세요, 저는 분주하게 사는 분주라고 합니다. 저는 초록색을 좋아합니다. 제가 강화도에서 왔는데요... 강화도에서는 그냥 고개만 들면 산이랑 나무였는데 서울에는 없어서 이것저것 모으다보니까 초록색 러버가 되어버렸습니다. 같은 강화도 출신 계시면 연락주세요(?)
           </p>
         </section>
 
-        <section>
+        <section id="gallery">
+          <h3 class="subtitle">나만의 갤러리</h3>
+          <p>제가 좋아하는 초록색를 가진 사진들입니다.</p>
+          <div class="gallery-container">
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.05.40%402x.webp" alt="초록 사진 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.06.09%402x.webp" alt="초록 사진 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.06.20%402x.webp" alt="초록 사진 3" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.06.30%402x.webp" alt="초록 사진 4" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/20250227161225297.webp" alt="초록 사진 5" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.07.10%402x.webp" alt="초록 사진 6" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.07.24%402x.webp" alt="초록 사진 7" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/20250227161128468.webp" alt="초록 사진 8" />
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/20250227161054375.webp" alt="초록 사진 9" />
+            </div>
+          </div>
+        </section>
+
+        <section id="favorites">
           <h3 class="subtitle">나를 울린 인생 작품</h3>
           <article>
             <h4>인생 영화</h4>
             <div class="thumbnail">
               <img
-                src="https://image.tmdb.org/t/p/w1280/u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg"
+                src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/CleanShot%202025-02-27%20at%2016.16.17%402x.webp"
                 width="200"
-                alt="그래비티 영화 포스터"
+                alt="인턴 영화 포스터"
               />
             </div>
             <p>
-              알폰소 쿠아론 감독이 연출하고 샌드라 불럭이 주연으로 출연하는 영화 「그래비티」는 우주 정거장에서 임무
-              수행 중 고립된 한 우주인의 생존과 귀환을 그린 작품이다. 대학생 시절 처음 본 이 영화는 당시엔 그저 지루한
-              우주 영화였다. 그런데 이 영화를 다시 보니, 마치 내 미래를 미리 보여준 복선과도 같다는 점을 깨달았다.
+             어른이 뭘까 라는것에 대해서 생각하게 되었던 영화라 기억에 남는다. 벤이라는 인물은 여기에서 할아버지로 나오는데, 본인의 약점이라면 약점인 나이에대해서는 인정하고 부족한건 시간이 걸려도 배우겠다는 마음을 갖고있다. 긴 세월동안 겪으며 얻은 교훈을 어린 회사 동료들에게 알려주고 깨닫게 해주는 장면이 너무 좋았고, 나도 저렇게 나이들고싶다고 생각했다. 
+            </p>
+          </article>
+          
+          <article>
+            <h4>인생 책</h4>
+            <div class="thumbnail">
+              <img
+                src="https://cdn.jsdelivr.net/gh/bunju20/bunju-blog-images@main/images/20250227162014144.webp"
+                width="200"
+                alt="인생 책 이미지"
+              />
+            </div>
+            <p>
+              카네기의 인간관계론, 자기관계론 등등 도움이 되는 서적들은 있었지만 그건 나한테 책이라기보단 정보고, 순수한 맘으로 재미있게 읽었던 작품은 이 책이다.초등학교 6학년때 읽은거라 앞뒤 내용은 기억나지 않는데, 염소젖과 치즈를 오두막에서 먹던 장면이 십몇년이 됐는데도 기억난다. 일상같고 평소같은 일이더라도 안정감 자체가 큰 행복이 될수있다는 걸 알게된 작품같다.
             </p>
           </article>
         </section>
 
-        <section>
+<section id="comments">
+          <h3 class="subtitle">감상평</h3>
           <div class="comment-writing-container">
-            <form>
-              <fieldset>
-                <legend>댓글 쓰기</legend>
+            <form id="comment-form">
+              <div class="comment-input-wrapper">
+                <div class="comment-author-img">
+                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
+                </div>
                 <textarea
+                  id="comment-input"
                   placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
                 ></textarea>
-              </fieldset>
+                <div class="comment-buttons">
+                  <button type="reset">취소</button>
+                  <button type="button" id="submit-button">등록</button>
+                </div>
+              </div>
             </form>
           </div>
           <ul class="comment-list">
@@ -114,16 +164,16 @@
           <h2>Contents</h2>
           <ol class="contents">
             <li>
-              <a href="#">자기소개</a>
+              <a href="#intro">자기소개</a>
             </li>
             <li>
-              <a href="#">나만의 갤러리</a>
+              <a href="#gallery">나만의 갤러리</a>
             </li>
             <li>
-              <a href="#">나를 울린 인생 작품</a>
+              <a href="#favorites">나를 울린 인생 작품</a>
             </li>
             <li>
-              <a href="#">감상평</a>
+              <a href="#comments">감상평</a>
             </li>
           </ol>
         </nav>
